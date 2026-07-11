@@ -15,3 +15,6 @@ venv/
 
 # Node / tooling
 node_modules/
+
+.vercel
+.env*
