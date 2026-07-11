@@ -1,0 +1,17 @@
+# Secrets — NEVER commit. The API key lives in Vercel env vars instead.
+config.env
+*.env
+.env
+.env.*
+
+# Vercel
+.vercel
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / tooling
+node_modules/
